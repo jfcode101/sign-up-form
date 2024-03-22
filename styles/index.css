@@ -44,8 +44,7 @@ html {
     }
 
     button[type="submit"],
-    input,
-    .sect-left {
+    input {
       border-radius: 5px;
     }
 
@@ -57,7 +56,7 @@ html {
     /* main */
     .cls-wrapper {
       letter-spacing: 1px;
-      width: 90%;
+      width: 100%;
       margin: auto;
 
       .sect-left {
@@ -65,7 +64,9 @@ html {
           no-repeat 15%;
         background-size: cover;
         height: 250px;
-        margin: 16px 0 32px;
+        margin: 0 0 32px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -92,6 +93,8 @@ html {
       }
 
       .sect-right {
+        width: 90%;
+        margin: auto;
         header {
           h3 {
             line-height: 1.2;
@@ -103,7 +106,7 @@ html {
           margin-bottom: 32px;
 
           .fld-container {
-            box-shadow: 0 4px 2px -2px var(--devy-grey);
+            box-shadow: 0 4px 2px -2px #a3a3a3;
             padding: 16px 0 0;
             margin-bottom: 32px;
 
@@ -115,7 +118,6 @@ html {
                   display: block;
                   text-transform: uppercase;
                   font-size: 1rem;
-                  /* font-weight: 500; */
                 }
 
                 input {
@@ -144,7 +146,7 @@ html {
             outline: none;
             width: 100%;
             height: 48px;
-            background: rgba(130, 167, 8, 0.35);
+            background: rgba(130, 167, 8, 0.5);
             color: var(--black-chocolate);
             font-size: 1rem;
             font-weight: 600;

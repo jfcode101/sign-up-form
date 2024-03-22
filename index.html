@@ -20,7 +20,8 @@
           <h3 id="id-hthree"></h3>
           <h3>You <i>Know</i> you want to.</h3>
         </header>
-        <form action="post" class="cls-frm" id="id-frm">
+        <!-- <form action="post" class="cls-frm" id="id-frm"> -->
+        <form  class="cls-frm" id="id-frm">
           <fieldset class="fld-container">
             <h3>Let's do This!</h3>
             <fieldset class="fld-arrange">
@@ -38,7 +39,13 @@
             <fieldset class="fld-arrange">
               <fieldset class="fld-single">
                 <label for="id-email">email</label>
-                <input type="email" name="" id="id-email" required />
+                <input
+                  type="email"
+                  name=""
+                  id="id-email"
+                  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                  required
+                />
               </fieldset>
               <fieldset class="fld-single">
                 <label for="id-phone">phone number</label>
@@ -49,11 +56,33 @@
             <fieldset class="fld-arrange">
               <fieldset class="fld-single">
                 <label for="id-pwd">password</label>
-                <input type="password" name="" id="id-pwd" required />
+                <input
+                  type="password"
+                  name=""
+                  id="id-pwd"
+                  <input
+                  type="password"
+                  id="pwd"
+                  name="pwd"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                  required
+                />
               </fieldset>
               <fieldset class="fld-single">
                 <label for="id-conf-pwd">confirm password</label>
-                <input type="password" name="" id="d-conf-pwd" required />
+                <input
+                  type="password"
+                  name=""
+                  id="d-conf-pwd"
+                  <input
+                  type="password"
+                  id="pwd"
+                  name="pwd"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                  required
+                />
               </fieldset>
             </fieldset>
           </fieldset>
