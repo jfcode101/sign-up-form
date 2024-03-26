@@ -20,12 +20,12 @@
 
 @font-face {
   font-family: league-spartan;
-  src: url(/assets/fonts/LeagueSpartan-VariableFont_wght.ttf);
+  src: url(../assets/fonts/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: norse-bold;
-  src: url(/assets/fonts/Norse-Bold.otf);
+  src: url(../assets/fonts/Norse-Bold.otf);
 }
 
 html {
@@ -65,8 +65,8 @@ html {
       grid-template-columns: 1fr;
 
       .sect-left {
-        background: rgba(0, 0, 0, 0.75) url("/assets/images/eduardo-soares.jpg")
-          no-repeat 15%;
+        background: rgba(0, 0, 0, 0.75)
+          url("../assets/images/eduardo-soares.jpg") no-repeat 15%;
         background-size: cover;
         height: 250px;
         margin: 0 0 32px;
