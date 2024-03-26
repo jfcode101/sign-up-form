@@ -65,7 +65,7 @@ html {
       grid-template-columns: 1fr;
 
       .sect-left {
-        background: rgba(0, 0, 0, 0.75) url(/assets/images/eduardo-soares.jpg)
+        background: rgba(0, 0, 0, 0.75) url("/assets/images/eduardo-soares.jpg")
           no-repeat 15%;
         background-size: cover;
         height: 250px;
